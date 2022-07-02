@@ -4,5 +4,11 @@ module.exports = {
   ],
   outputDir: 'docs',
   assetsDir: './',
-  publicPath: './'
+  publicPath: './',
+	pages: {
+		index: {
+			entry: "src/main.js",
+			title: "花雲りん誕生日2022"
+		}
+	}
 }

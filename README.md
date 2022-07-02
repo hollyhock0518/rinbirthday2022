@@ -1,5 +1,8 @@
 # rinbirthday2022
 
+## GitHub Pages URL
+https://hollyhock0518.github.io/rinbirthday2022/
+
 ## Project setup
 ```
 npm install

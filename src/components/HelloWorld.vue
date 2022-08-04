@@ -18,7 +18,7 @@
 						<v-col v-for="n in 12" :key="n" cols="6">
 							<div class="cardtest">
 
-								<v-card height="300px" @click.stop="dialog = true" color="rgb(255, 255, 255, 0.7)">
+								<v-card height="300px" @click.stop="dialog = true" color="rgb(255, 255, 255, 0.85)">
 									<v-container>
 										<v-row class="home-about__contents">
 											<v-col md="5">

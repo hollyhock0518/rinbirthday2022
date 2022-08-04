@@ -1,6 +1,6 @@
 <template>
 	<v-app>
-		<v-app-bar hide-on-scroll color="yellow lighten-4">
+		<v-app-bar fixed color="yellow lighten-4">
 			<v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
 		</v-app-bar>
 		<v-navigation-drawer v-model="drawer" absolute temporary>

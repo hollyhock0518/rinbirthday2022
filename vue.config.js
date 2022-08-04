@@ -2,13 +2,21 @@ module.exports = {
   transpileDependencies: [
     'vuetify'
   ],
+	configureWebpack: {
+		devServer: {
+			watchOptions: {
+				poll: true,
+				ignored: /node_modules/,
+			}
+		}
+	},
   outputDir: 'docs',
   assetsDir: './',
   publicPath: './',
 	pages: {
 		index: {
 			entry: "src/main.js",
-			title: "花雲りん誕生日2022"
+			title: "Rin Birthday 2022"
 		}
 	}
 }

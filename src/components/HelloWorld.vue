@@ -26,7 +26,7 @@
 												<v-img :src="member.icon"></v-img>
 											</v-col>
 											<v-col cols="10">
-												<v-card-title>{{ member.name }} より</v-card-title>
+												<v-card-title class=".text-sm-h5">{{ member.name }} より</v-card-title>
 											</v-col>
 										</v-row>
 									</v-container>
